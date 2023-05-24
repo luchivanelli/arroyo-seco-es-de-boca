@@ -1,0 +1,62 @@
+@use 'variables';
+
+.home {
+    height: 100vh;
+    background-image: url('../images/fondo.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__navbar {
+        padding: 0;
+        color: white;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0,0,0,0.9);
+        gap: 50px;
+        padding-top: 40px;
+
+        &__container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 20px;
+            gap: 20px;
+            margin: 0 20px;
+    
+            &__logo {
+                width: 100px;
+                border-radius: 50%;
+            }
+    
+            &__titulo {
+                font-size: 24px;
+            }
+        }
+
+        &__link {
+            text-decoration: none;
+            font-size: 20px;
+            border: 3px solid #fff;
+            background-color: variables.$color1;
+            color: variables.$color2;
+            padding: 10px 15px;
+            border-radius: 20px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.6s;
+
+            &:hover {
+            transition: all 0.3s;
+            border-color: variables.$color2;
+            background-color: variables.$color1;
+            color: #fff;
+            }
+        }
+    }
+}

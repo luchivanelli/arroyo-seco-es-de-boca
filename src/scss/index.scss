@@ -1,0 +1,10 @@
+@use 'home';
+@use 'viajes';
+@use 'footer';
+@use 'volver';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}

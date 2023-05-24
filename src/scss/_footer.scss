@@ -1,0 +1,23 @@
+@use 'variables';
+
+.footer {
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 2px solid #fff;
+    gap: 10px;
+
+    & img {
+        width: 60px;
+        border-radius: 50%;
+    }
+
+    & p {
+        color: #fff;
+    }
+}
