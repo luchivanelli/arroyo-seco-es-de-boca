@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arroyo-seco-es-de-boca/static/css/main.b65b1e04.css",
-    "main.js": "/arroyo-seco-es-de-boca/static/js/main.fa26ab8a.js",
+    "main.css": "/arroyo-seco-es-de-boca/static/css/main.973ad60d.css",
+    "main.js": "/arroyo-seco-es-de-boca/static/js/main.ce2ed5d3.js",
     "static/js/787.dd47d8db.chunk.js": "/arroyo-seco-es-de-boca/static/js/787.dd47d8db.chunk.js",
     "static/media/fondo.PNG": "/arroyo-seco-es-de-boca/static/media/fondo.4d005f0e4dca0a83b3ff.PNG",
     "static/media/viaje5.jpeg": "/arroyo-seco-es-de-boca/static/media/viaje5.a910c13d4f0419b864b0.jpeg",
@@ -11,14 +11,15 @@
     "static/media/viaje4.jpeg": "/arroyo-seco-es-de-boca/static/media/viaje4.cb39e7c3005c9f0adb38.jpeg",
     "static/media/viaje1.jpeg": "/arroyo-seco-es-de-boca/static/media/viaje1.423943be6d9b9733d2a8.jpeg",
     "static/media/viaje7.jpeg": "/arroyo-seco-es-de-boca/static/media/viaje7.fde9e6a33522ad33931d.jpeg",
+    "static/media/boca.jpg": "/arroyo-seco-es-de-boca/static/media/boca.f53fefaa53d04ebcf94a.jpg",
     "static/media/logoPeña.jpeg": "/arroyo-seco-es-de-boca/static/media/logoPeña.1d775cf0e4c395f8d337.jpeg",
     "index.html": "/arroyo-seco-es-de-boca/index.html",
-    "main.b65b1e04.css.map": "/arroyo-seco-es-de-boca/static/css/main.b65b1e04.css.map",
-    "main.fa26ab8a.js.map": "/arroyo-seco-es-de-boca/static/js/main.fa26ab8a.js.map",
+    "main.973ad60d.css.map": "/arroyo-seco-es-de-boca/static/css/main.973ad60d.css.map",
+    "main.ce2ed5d3.js.map": "/arroyo-seco-es-de-boca/static/js/main.ce2ed5d3.js.map",
     "787.dd47d8db.chunk.js.map": "/arroyo-seco-es-de-boca/static/js/787.dd47d8db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b65b1e04.css",
-    "static/js/main.fa26ab8a.js"
+    "static/css/main.973ad60d.css",
+    "static/js/main.ce2ed5d3.js"
   ]
 }
