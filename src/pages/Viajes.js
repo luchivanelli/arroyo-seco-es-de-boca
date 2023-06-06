@@ -15,7 +15,7 @@ const Viajes = ()=> {
         <Volver/>
         <h2 className='titulo'>Viajá con nosotros</h2>
         <p className='subtitulo'>Viví la experiencia de viajar con la peña..</p>
-        <ul class="slider">
+        <ul className="slider">
           <li id="slide1">
             <img src={viaje1}/>
           </li>
@@ -39,7 +39,7 @@ const Viajes = ()=> {
           </li>
         </ul>
         
-        <ul class="menu">
+        <ul className="menu">
           <li>
             <a href="#slide1">1</a>
           </li>

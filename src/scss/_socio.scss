@@ -1,0 +1,119 @@
+@use 'variables';
+
+.socio {
+    &__titulo {
+        font-size: 28px;
+        color: #fff;
+        letter-spacing: 1px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    &__adherente {
+        background-color: variables.$color2;
+        padding: 20px;
+
+        & h3 {
+            font-size: 24px;
+            color: variables.$color1;
+        }
+
+        &__pasos {
+            & h5 {
+                font-size: 18px;
+                padding: 5px 15px;
+                background-color: variables.$color1;
+                color: variables.$color2;
+                letter-spacing: 1px;
+                font-weight: 400;
+            }
+
+            & ul {
+                margin: 10px 0;
+
+                & li {
+                    font-size: 18px;
+                    padding: 4px 0;
+
+                    & a {
+                        text-decoration: none;
+                        font-weight: 500;
+                        color: variables.$color1;
+                    }
+                }
+            }
+        }
+    }
+
+    &__peña {
+        background-color: variables.$color2;
+        padding: 20px;
+        margin: 20px 0;
+
+        & h3 {
+            font-size: 24px;
+            color: variables.$color1;
+        }
+
+        & h5 {
+                font-size: 18px;
+                padding: 5px 15px;
+                background-color: variables.$color1;
+                color: variables.$color2;
+                letter-spacing: 1px;
+                font-weight: 400;
+        }
+
+        &__form {
+            margin: 20px 0;
+            border: 3px solid variables.$color1;
+            padding: 20px 10px;
+
+            &__div {
+                padding: 5px 0;
+
+                & label {
+                    margin-right: 5px;
+                    font-size: 18px;
+                    color: variables.$color1;
+                }
+
+                & input {
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: 3px solid variables.$color1;
+                    font-weight: 500;
+                    font-size: 16px;
+
+                    &:focus {
+                        outline: none;
+                    }
+
+                    
+                }
+            }
+
+            & button {
+                display: block;
+                margin: 20px auto 0;
+                width: 50%;
+                border: 3px solid variables.$color1;
+                border-radius: 20px;
+                padding: 5px 0;
+                font-size: 18px;
+                letter-spacing: 1px;
+                transition: all 0.6s;
+                background-color: variables.$color1;
+                color: variables.$color2;
+                
+                font-weight: 500;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: variables.$color2;
+                    color: variables.$color1;
+                }
+            }
+        }
+    }
+}

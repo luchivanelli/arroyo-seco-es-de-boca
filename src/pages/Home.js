@@ -16,10 +16,10 @@ const Home = ()=> {
           <NavLink className='home__navbar__link' to="/hacete-socio">Hacete socio</NavLink>
         <div className="home__redes">
           <a href="https://www.instagram.com/arroyosecoesdeboca12/" target="_blank">
-            <img src="https://img.icons8.com/?size=512&id=85154&format=png"/>
+            Instagram
           </a>
           <a href="https://www.facebook.com/ARROYOSECOESDEBOCA" target="_blank">
-            <img src="https://img.icons8.com/?size=512&id=118487&format=png"/>
+            Facebook
           </a>
         </div>
         </ul>

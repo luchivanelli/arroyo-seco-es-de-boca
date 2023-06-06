@@ -1,7 +1,11 @@
+import Volver from '../components/Volver'
+import Footer from '../components/Footer'
+
 const Indumendaria = ()=> {
     return (
-      <div className="">
-        
+      <div className="indumentaria">
+        <Volver/>
+        <Footer/>
       </div>
     )
   }

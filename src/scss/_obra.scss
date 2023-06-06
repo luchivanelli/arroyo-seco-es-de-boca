@@ -1,0 +1,58 @@
+@use 'variables';
+
+.obra {
+    & h1 {
+        font-size: 28px;
+        color: #fff;
+        letter-spacing: 1px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    &__galeria {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        align-items: center;
+
+        & img {
+            width: 100%;
+        }
+
+        .img2 {
+            grid-column: 2/4;
+        }
+
+        .img4 {
+            grid-column: span 2;
+        }
+
+        .img6 {
+            grid-column: span 2;
+        }
+
+        .img9 {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+    }
+
+    &__terminada {
+        margin: 20px 0;
+        padding: 20px 0 0;
+
+        & h3 {
+            padding: 10px 30px;
+            background-color: variables.$color2;
+            color: variables.$color1;
+            width: 80%;
+            text-align: justify;
+            margin: 0 auto 20px;
+        }
+
+        & img {
+            width: 100%;
+        }
+    }
+}
