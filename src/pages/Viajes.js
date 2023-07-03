@@ -7,6 +7,7 @@ import viaje6 from '../images/viaje6.jpeg'
 import viaje7 from '../images/viaje7.jpeg'
 import Footer from '../components/Footer'
 import Volver from '../components/Volver'
+import { Carousel } from 'react-bootstrap'
 
 
 const Viajes = ()=> {
@@ -15,53 +16,57 @@ const Viajes = ()=> {
         <Volver/>
         <h2 className='titulo'>Viajá con nosotros</h2>
         <p className='subtitulo'>Viví la experiencia de viajar con la peña..</p>
-        <ul className="slider">
-          <li id="slide1">
-            <img src={viaje1}/>
-          </li>
-          <li id="slide2">
-            <img src={viaje2}/>
-          </li>
-          <li id="slide3">
-            <img src={viaje3}/>
-          </li>
-          <li id="slide4">
-            <img src={viaje4}/>
-          </li>
-          <li id="slide5">
-            <img src={viaje5}/>
-          </li>
-          <li id="slide6">
-            <img src={viaje6}/>
-          </li>
-          <li id="slide7">
-            <img src={viaje7}/>
-          </li>
-        </ul>
-        
-        <ul className="menu">
-          <li>
-            <a href="#slide1">1</a>
-          </li>
-          <li>
-            <a href="#slide2">2</a>
-          </li>
-          <li>
-            <a href="#slide3">3</a>
-          </li>
-          <li>
-            <a href="#slide4">4</a>
-          </li>
-          <li>
-            <a href="#slide5">5</a>
-          </li>
-          <li>
-            <a href="#slide6">6</a>
-          </li>
-          <li>
-            <a href="#slide7">7</a>
-          </li>
-        </ul>
+        <Carousel className='carrusel'>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carrusel-img"
+              src={viaje1}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carrusel-img"
+              src={viaje2}
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carrusel-img"
+              src={viaje3}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carrusel-img"
+              src={viaje4}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carrusel-img"
+              src={viaje5}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carrusel-img"
+              src={viaje6}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carrusel-img"
+              src={viaje7}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
 
         <div className='info'>
           <h3>Información importante</h3>

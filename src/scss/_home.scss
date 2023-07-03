@@ -6,6 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: hidden;
 
     &__navbar {
         padding: 0;
@@ -13,11 +14,11 @@
         z-index: 10;
         display: flex;
         flex-direction: column;
-        height: 95.2%;
+        height: 100%;
         justify-content: center;
         align-items: center;
         background-color: rgba(0,0,0,0.9);
-        gap: 50px;
+        gap: 40px;
         padding-top: 40px;
 
         &__container {
@@ -41,11 +42,11 @@
 
         &__link {
             text-decoration: none;
-            font-size: 20px;
+            font-size: 16px;
             border: 3px solid #fff;
             background-color: variables.$color1;
             color: variables.$color2;
-            padding: 10px 15px;
+            padding: 8px 14px;
             border-radius: 20px;
             letter-spacing: 1px;
             cursor: pointer;
