@@ -12,7 +12,7 @@ const Home = ()=> {
           <NavLink className='home__navbar__link' to="/viajes">Viajá con la peña</NavLink>
           <NavLink className='home__navbar__link' to="/eventos">Eventos y jornadas</NavLink>
           <NavLink className='home__navbar__link' to="/obra">Avances de la obra</NavLink>
-          <NavLink className='home__navbar__link' to="/indumentaria">Indumentaria</NavLink>
+          <NavLink className='home__navbar__link' to="/solidarias">Jornadas solidarias</NavLink>
           <NavLink className='home__navbar__link' to="/hacete-socio">Hacete socio</NavLink>
         <div className="home__redes">
           <a href="https://www.instagram.com/arroyosecoesdeboca12/" target="_blank">

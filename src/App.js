@@ -4,7 +4,7 @@ import Viajes from "./pages/Viajes";
 import Obra from "./pages/Obra";
 import Socio from "./pages/Socio";
 import Eventos from "./pages/Eventos";
-import Indumentaria from "./pages/Indumentaria";
+import Solidarias from "./pages/Solidarias";
 import "./scss/index.scss"
 
 const App = ()=> {
@@ -15,7 +15,7 @@ const App = ()=> {
         <Route path="/viajes" element={<Viajes/>}/>
         <Route path="/eventos" element={<Eventos/>}/>
         <Route path="/obra" element={<Obra/>}/>
-        <Route path="/indumentaria" element={<Indumentaria/>}/>
+        <Route path="/solidarias" element={<Solidarias/>}/>
         <Route path="/hacete-socio" element={<Socio/>}/>
       </Routes>
     </div>

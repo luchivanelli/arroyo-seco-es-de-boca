@@ -1,0 +1,23 @@
+@use 'variables';
+
+.cards {
+    margin: 20px 0;
+}
+
+.cards .row{
+    margin: 10px 40px;   
+    gap: 10px 0;
+}
+
+.card {
+    padding: 0 !important;
+}
+
+.card-header {
+    background-color: variables.$color1 !important;
+    color: variables.$color2 !important;
+}
+
+.card-titulo {
+    color: variables.$color1 !important; 
+}
