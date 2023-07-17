@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/arroyo-seco-es-de-boca/static/css/main.4bcc3fa8.css",
-    "main.js": "/arroyo-seco-es-de-boca/static/js/main.d06464d9.js",
+    "main.css": "/arroyo-seco-es-de-boca/static/css/main.d176bb6a.css",
+    "main.js": "/arroyo-seco-es-de-boca/static/js/main.5f628846.js",
     "static/js/787.dd47d8db.chunk.js": "/arroyo-seco-es-de-boca/static/js/787.dd47d8db.chunk.js",
     "static/media/fondo.PNG": "/arroyo-seco-es-de-boca/static/media/fondo.4d005f0e4dca0a83b3ff.PNG",
     "static/media/peñaterminada.jpeg": "/arroyo-seco-es-de-boca/static/media/peñaterminada.051255262201df06318e.jpeg",
     "static/media/boca.jpg": "/arroyo-seco-es-de-boca/static/media/boca.f53fefaa53d04ebcf94a.jpg",
     "static/media/logoPeña.jpeg": "/arroyo-seco-es-de-boca/static/media/logoPeña.1d775cf0e4c395f8d337.jpeg",
     "static/media/obra5.jpeg": "/arroyo-seco-es-de-boca/static/media/obra5.61e46dba8a650c47deab.jpeg",
+    "static/media/solidaria9.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria9.854cf2aa72e2ca42cd66.jpeg",
     "static/media/obra9.jpeg": "/arroyo-seco-es-de-boca/static/media/obra9.05486b74f9a8204ac026.jpeg",
     "static/media/obra4.jpeg": "/arroyo-seco-es-de-boca/static/media/obra4.8ed18406304ca8bb63f7.jpeg",
+    "static/media/solidaria5.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria5.11c7e6248a01da0245d3.jpeg",
     "static/media/obra2.jpeg": "/arroyo-seco-es-de-boca/static/media/obra2.ad4b62379f46cba2f3e8.jpeg",
+    "static/media/solidaria3.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria3.8eada811ce6da49a7a3f.jpeg",
     "static/media/obra10.jpeg": "/arroyo-seco-es-de-boca/static/media/obra10.e327d9c540c75f1f68ad.jpeg",
+    "static/media/solidaria2.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria2.96881870ee6578cb3962.jpeg",
     "static/media/obra6.jpeg": "/arroyo-seco-es-de-boca/static/media/obra6.30cf726621d0763dd9ba.jpeg",
     "static/media/viaje6.jpeg": "/arroyo-seco-es-de-boca/static/media/viaje6.eb47a7df1d9747f95a05.jpeg",
     "static/media/viaje2.jpeg": "/arroyo-seco-es-de-boca/static/media/viaje2.5263910adf882d32791c.jpeg",
@@ -21,15 +25,21 @@
     "static/media/viaje1.jpeg": "/arroyo-seco-es-de-boca/static/media/viaje1.4631459f630726fa9ec1.jpeg",
     "static/media/viaje7.jpeg": "/arroyo-seco-es-de-boca/static/media/viaje7.830ca99bf43f425f1867.jpeg",
     "static/media/obra3.jpeg": "/arroyo-seco-es-de-boca/static/media/obra3.4fb70b21796d38f17909.jpeg",
+    "static/media/solidaria8.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria8.22988050f499d0332b71.jpeg",
+    "static/media/solidaria4.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria4.1f81eef2a7160ff7c67b.jpeg",
     "static/media/obra7.jpeg": "/arroyo-seco-es-de-boca/static/media/obra7.97433c261cac0070c4d5.jpeg",
+    "static/media/solidaria7.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria7.55d13d8a40b27fe7aa23.jpeg",
     "static/media/obra8.jpeg": "/arroyo-seco-es-de-boca/static/media/obra8.8d017ac2ab9ee18f521e.jpeg",
+    "static/media/solidaria10.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria10.5d77eab06b218ceb07bd.jpeg",
+    "static/media/solidaria1.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria1.9a20e1a1fc8a6219938c.jpeg",
+    "static/media/solidaria6.jpeg": "/arroyo-seco-es-de-boca/static/media/solidaria6.bab6dcc67664208bb25b.jpeg",
     "index.html": "/arroyo-seco-es-de-boca/index.html",
-    "main.4bcc3fa8.css.map": "/arroyo-seco-es-de-boca/static/css/main.4bcc3fa8.css.map",
-    "main.d06464d9.js.map": "/arroyo-seco-es-de-boca/static/js/main.d06464d9.js.map",
+    "main.d176bb6a.css.map": "/arroyo-seco-es-de-boca/static/css/main.d176bb6a.css.map",
+    "main.5f628846.js.map": "/arroyo-seco-es-de-boca/static/js/main.5f628846.js.map",
     "787.dd47d8db.chunk.js.map": "/arroyo-seco-es-de-boca/static/js/787.dd47d8db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bcc3fa8.css",
-    "static/js/main.d06464d9.js"
+    "static/css/main.d176bb6a.css",
+    "static/js/main.5f628846.js"
   ]
 }
